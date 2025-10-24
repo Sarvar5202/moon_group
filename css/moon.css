@@ -31,3 +31,27 @@ body {
   background-position: right;
   background-repeat: no-repeat;
 }
+.bg-destination {
+  background-image: url("../images/bagraund_2.png");
+  background-size: cover;
+  background-position: center;
+
+  background-color: #0b0d17;
+}
+
+.nav-bg-blur {
+  background-color: rgba(151, 151, 151, 0.04);
+  backdrop-filter: blur(81.55px);
+}
+
+.planet-info {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.planet:hover .planet-info {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
