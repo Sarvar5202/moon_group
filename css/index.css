@@ -1,0 +1,47 @@
+@font-face {
+  font-display: swap;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bellefair-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v13-latin-regular.woff2") format("woff2");
+}
+
+body {
+  font-family: "Bellefair" serif;
+  font-family: "Barlow" sans-serif;
+}
+
+.containers {
+  max-width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("../images/globus.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.nn {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  z-index: 22;
+  left: 190px;
+  width: 273px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+
